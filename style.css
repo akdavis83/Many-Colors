@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Just+Another+Hand&display=swap");
+body {
+	background: #000000;
+	container-type: inline-size;
+	margin: 5px;
+}
+article {
+	background: conic-gradient(
+		from 0deg at 50% 50% in oklch longer hue,
+		oklch(70% 0.3 0) 0%,
+		oklch(70% 0.3 0) 100%
+	);
+	background-clip: text;
+	color: #0000;
+	font-family: "Just Another Hand", cursive;
+	font-size: calc(2cqi + 2dvh);
+	line-height: 1.75;
+	text-transform: uppercase;
+	text-align: center;
+
+	* {
+		display: contents;
+		font-size: inherit;
+	}
+}
